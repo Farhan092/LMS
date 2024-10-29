@@ -241,24 +241,15 @@
 
 
 
-
+<div class="relative w-full pt-20"> <!-- Adjust padding-top to lower the image -->
+  <img src="./assets/images/about.png" alt="Top Image" class="w-full h-auto object-cover">
+</div>
   <!-- Main Content -->
 <!-- Main Content -->
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-<main class="vision-page mx-auto max-w-screen-xl pt-40"> <!-- Increased padding-top to 40 -->
-
-  <div class="relative w-full h-[40vh]">
-    <main class="w-full h-full bg-cover bg-center bg-no-repeat" style="background-image: url('/assets/images/about.png');">
-      
-    </main>
-  </div>
-  
-
-
+<main class="vision-page mx-auto max-w-screen-xl "> <!-- Increased padding-top to 40 -->
 
   <!-- Introduction Section -->
-  <div class="section intro text-center mb-12 px-4" data-aos="fade-left">
+  <div class="section intro text-center mb-12 px-4">
     <div class="flex justify-center mb-4">
       <i class="fas fa-users fa-3x" style="color: #00A7A9;"></i> <!-- Icon for decoration -->
     </div>
@@ -274,13 +265,13 @@
   </div>
 
   <!-- Vision Section -->
-  <section class="flex flex-col md:flex-row items-center gap-6 mb-12 px-4 ml-80" data-aos="slide-right">
-    <div class="content-img-container inline-block">
-      <div class="relative overflow-hidden border-4 border-gray-200 rounded-lg shadow-lg w-[300px] h-[300px] mx-auto">
+  <section class="flex flex-col md:flex-row items-center gap-6 mb-12 px-4">
+    <div class="content-img-container inline-block w-full md:w-1/2">
+      <div class="relative overflow-hidden border-4 border-gray-200 rounded-lg shadow-lg w-full h-[300px] mx-auto">
         <img src="./assets/images/vision.jpg" alt="Vision Image" class="object-cover w-full h-full">
       </div>
     </div>
-    <div class="content-text md:w-1/2" data-aos="fade-left">
+    <div class="content-text md:w-1/2">
       <div class="flex items-center mb-4">
         <i class="fas fa-lightbulb text-4xl text-blue-600 mr-4"></i>
         <h2 class="text-2xl font-semibold text-blue-700">Our Vision</h2>
@@ -293,13 +284,13 @@
   </section>
 
   <!-- Mission Section -->
-  <section class="flex flex-col md:flex-row items-center gap-6 mb-12 px-4 ml-80" data-aos="slide-left">
-    <div class="content-img-container inline-block md:order-2">
-      <div class="relative overflow-hidden border-4 border-gray-200 rounded-lg shadow-lg w-[300px] h-[300px] mx-auto">
+  <section class="flex flex-col md:flex-row items-center gap-6 mb-12 px-4">
+    <div class="content-img-container inline-block w-full md:w-1/2 md:order-2">
+      <div class="relative overflow-hidden border-4 border-gray-200 rounded-lg shadow-lg w-full h-[300px] mx-auto">
         <img src="./assets/images/mision.avif" alt="Mission Image" class="object-cover w-full h-full">
       </div>
     </div>
-    <div class="content-text md:w-1/2" data-aos="fade-right">
+    <div class="content-text md:w-1/2">
       <div class="flex items-center mb-4">
         <i class="fas fa-rocket text-4xl text-green-600 mr-4"></i>
         <h2 class="text-2xl font-semibold text-green-700">Our Mission</h2>
@@ -314,9 +305,9 @@
   </section>
 
   <!-- Values Section -->
-  <section class="flex flex-col md:flex-row items-center gap-6 mb-12 px-4 ml-80" data-aos="slide-right">
-    <div class="content-img-container inline-block" data-aos="fade-left">
-      <div class="relative overflow-hidden border-4 border-gray-200 rounded-lg shadow-lg w-[300px] h-[300px] mx-auto">
+  <section class="flex flex-col md:flex-row items-center gap-6 mb-12 px-4">
+    <div class="content-img-container inline-block w-full md:w-1/2">
+      <div class="relative overflow-hidden border-4 border-gray-200 rounded-lg shadow-lg w-full h-[300px] mx-auto">
         <img src="./assets/images/values.png" alt="Values Image" class="object-cover w-full h-full">
       </div>
     </div>
@@ -350,30 +341,6 @@
     </div>
   </section>
 </main>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1200, // Animation duration in milliseconds
-    once: true, // Run animation only once when scrolling down
-  });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
 
 
 
