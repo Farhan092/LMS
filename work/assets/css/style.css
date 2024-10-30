@@ -1120,7 +1120,12 @@ body {
 
   /* side menu  */
 
-
+  .sub-dropdown-item:hover .sub-dropdown-link {
+    background-color: hsl(170, 75%, 41%); /* Hover background color for sub-dropdown */
+    color: #fff; /* Optional: text color change on hover */
+  }
+  
+  
   .navbar-item.dropdown:hover .dropdown-list,
 .navbar-item.dropdown:focus-within .dropdown-list {
   display: block; /* Show the main dropdown when hovered or focused */
@@ -1151,7 +1156,7 @@ body {
   left: 100%; /* Position to the right of the parent item */
   top: 0; /* Align to the top */
   z-index: 10; /* Ensure it appears above other content */
-} 
+}
 
 .dropdown-list.active,
 .sub-dropdown-list.active {
