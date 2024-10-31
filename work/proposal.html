@@ -260,236 +260,318 @@
     <h1 class="text-5xl font-bold text-gray-800 font-montserrat">Mastering Proposal Writing: A Comprehensive Guide</h1>
   </div>
 
-  <div id="step1" class="bg-white shadow-lg rounded-xl p-8 mb-8">
+  <div id="step1" class="bg-white shadow-lg rounded-xl p-6 sm:p-8 mb-8">
     <div class="flex items-center mb-5">
-        <i class="fas fa-bullseye text-blue-500 mr-3 text-3xl"></i>
-        <h2 class="text-3xl font-semibold text-gray-700 font-montserrat">Step 1: Choosing the Right Proposal</h2>
+        <i class="fas fa-bullseye text-blue-500 mr-3 text-2xl sm:text-3xl"></i>
+        <h2 class="text-2xl sm:text-3xl font-semibold text-gray-700 font-montserrat">
+            Step 1: Choosing the Right Proposal
+        </h2>
     </div>
     <ul class="list-disc list-inside text-gray-600">
         <li class="flex items-start mb-4">
-            <i class="fas fa-check-circle text-blue-500 mr-2 mt-1"></i>
-            <strong>Identify the Opportunity:</strong>
-            <span class="ml-2">Determine the specific funding opportunity or project that aligns with your company’s goals and expertise.</span>
+            <i class="fas fa-check-circle text-blue-500 mr-2 text-lg sm:text-xl"></i>
+            <div class="flex-1">
+                <strong>Identify the Opportunity:</strong>
+                <span class="ml-2">Determine the specific funding opportunity or project that aligns with your company’s goals and expertise.</span>
+            </div>
         </li>
         <li class="flex items-start mb-4">
-            <i class="fas fa-check-circle text-blue-500 mr-2 mt-1"></i>
-            <strong>Evaluate Requirements:</strong>
-            <ul class="list-disc list-inside ml-5">
-                <li class="flex items-start mb-2">
-                    <i class="fas fa-book text-gray-500 mr-2 mt-1"></i>
-                    <span>Carefully read the RFP or guidelines provided by the funding agency or client.</span>
-                </li>
-                <li class="flex items-start mb-2">
-                    <i class="fas fa-calendar-alt text-gray-500 mr-2 mt-1"></i>
-                    <span>Take note of eligibility criteria, submission deadlines, and required formats.</span>
-                </li>
-            </ul>
+            <i class="fas fa-check-circle text-blue-500 mr-2 text-lg sm:text-xl"></i>
+            <div class="flex-1">
+                <strong>Evaluate Requirements:</strong>
+                <ul class="list-disc list-inside ml-5 mt-2">
+                    <li class="flex items-start mb-2">
+                        <i class="fas fa-book text-gray-500 mr-2 text-base"></i>
+                        <span>Carefully read the RFP or guidelines provided by the funding agency or client.</span>
+                    </li>
+                    <li class="flex items-start mb-2">
+                        <i class="fas fa-calendar-alt text-gray-500 mr-2 text-base"></i>
+                        <span>Take note of eligibility criteria, submission deadlines, and required formats.</span>
+                    </li>
+                </ul>
+            </div>
         </li>
         <li class="flex items-start mb-4">
-            <i class="fas fa-check-circle text-blue-500 mr-2 mt-1"></i>
-            <strong>Assess Fit:</strong>
-            <ul class="list-disc list-inside ml-5">
-                <li class="flex items-start mb-2">
-                    <i class="fas fa-users text-gray-500 mr-2 mt-1"></i>
-                    <span>Decide if your company has the capacity, expertise, and resources to address the proposal requirements.</span>
-                </li>
-                <li class="flex items-start mb-2">
-                    <i class="fas fa-clock text-gray-500 mr-2 mt-1"></i>
-                    <span>Consider team skills, project timelines, and budget implications.</span>
-                </li>
-            </ul>
+            <i class="fas fa-check-circle text-blue-500 mr-2 text-lg sm:text-xl"></i>
+            <div class="flex-1">
+                <strong>Assess Fit:</strong>
+                <ul class="list-disc list-inside ml-5 mt-2">
+                    <li class="flex items-start mb-2">
+                        <i class="fas fa-users text-gray-500 mr-2 text-base"></i>
+                        <span>Decide if your company has the capacity, expertise, and resources to address the proposal requirements.</span>
+                    </li>
+                    <li class="flex items-start mb-2">
+                        <i class="fas fa-clock text-gray-500 mr-2 text-base"></i>
+                        <span>Consider team skills, project timelines, and budget implications.</span>
+                    </li>
+                </ul>
+            </div>
         </li>
     </ul>
     <!-- Next Button to show Step 2 -->
-     
-    <button onclick="showStep2()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Next</button>
+    <button onclick="showStep2()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">
+        Next
+    </button>
 </div>
 
-<div id="step2" class="bg-white shadow-lg rounded-xl p-8 mb-8 hidden">
-    <div class="flex items-center mb-5">
-        <i class="fas fa-folder-open text-green-500 mr-3 text-3xl"></i>
-        <h2 class="text-3xl font-semibold text-gray-700 font-montserrat">Step 2: Arrange Documents</h2>
-    </div>
-    <ul class="list-disc list-inside text-gray-600">
-        <li class="flex items-start mb-2">
-            <i class="fas fa-file-alt text-green-500 mr-2 mt-1"></i>
-            <strong>Gather Necessary Documents:</strong>
-            <ul class="list-disc list-inside ml-5">
-                <li class="flex items-start mb-1">
-                    <i class="fas fa-check-circle text-gray-500 mr-2 mt-1"></i>
-                    <span>Cover letter: Introduce your company and the purpose of the proposal.</span>
-                </li>
-                <li class="flex items-start mb-1">
-                    <i class="fas fa-check-circle text-gray-500 mr-2 mt-1"></i>
-                    <span>Executive summary: Summarize the key points of your proposal, including objectives and outcomes.</span>
-                </li>
-                <li class="flex items-start mb-1">
-                    <i class="fas fa-check-circle text-gray-500 mr-2 mt-1"></i>
-                    <span>Company profile: Provide an overview of your company, including its history, mission, and relevant experience.</span>
-                </li>
-                <li class="flex items-start mb-1">
-                    <i class="fas fa-check-circle text-gray-500 mr-2 mt-1"></i>
-                    <span>Relevant experience or case studies: Highlight previous projects or case studies that demonstrate your capability.</span>
-                </li>
-                <li class="flex items-start mb-1">
-                    <i class="fas fa-check-circle text-gray-500 mr-2 mt-1"></i>
-                    <span>Financial statements or budgets: Include any necessary financial documents to showcase your company’s financial health.</span>
-                </li>
-                <li class="flex items-start mb-1">
-                    <i class="fas fa-check-circle text-gray-500 mr-2 mt-1"></i>
-                    <span>Resumes of key personnel: Present the qualifications and experiences of the team members who will be involved in the project.</span>
-                </li>
-            </ul>
-        </li>
-        <li class="flex items-start mb-2">
-            <i class="fas fa-folder text-green-500 mr-2 mt-1"></i>
-            <strong>Organize Materials:</strong>
-            <span>Create a folder (digital or physical) to store all proposal-related documents, ensuring easy access and retrieval.</span>
-        </li>
-        <li class="flex items-start mb-2">
-            <i class="fas fa-check-square text-green-500 mr-2 mt-1"></i>
-            <strong>Create a Checklist:</strong>
-            <span>Make a checklist of all required documents and information needed for the proposal to ensure nothing is overlooked during submission.</span>
-        </li>
-    </ul>
-    <!-- Next Button to show Step 3 -->
-    <button onclick="showStep1()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Back</button>
-    
-    <button onclick="showStep3()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Next</button>
-</div>
 
-<div id="step3" class="bg-white shadow-lg rounded-xl p-8 mb-8 hidden">
-    <div class="flex items-center mb-5">
-        <i class="fas fa-pencil-alt text-yellow-500 mr-3 text-3xl"></i>
-        <h2 class="text-3xl font-semibold text-gray-700 font-montserrat">Step 3: Crafting the Proposal</h2>
-    </div>
-    <ul class="list-disc list-inside text-gray-600">
-        <li class="flex items-start mb-4">
-            <i class="fas fa-list-alt text-yellow-500 mr-2 mt-1"></i>
-            <strong>Outline the Proposal:</strong>
-            <span class="ml-2">Create a structured outline that includes:</span>
-            <ul class="list-disc list-inside ml-5">
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-file text-gray-500 mr-2 mt-1"></i>
-                    <strong>Title page:</strong>
-                    <span class="ml-2">Present your proposal's title, your name, and organization. Make it clear and professional.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-table text-gray-500 mr-2 mt-1"></i>
-                    <strong>Table of contents:</strong>
-                    <span class="ml-2">Provide a detailed table of contents to help the reader navigate the document.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-file-alt text-gray-500 mr-2 mt-1"></i>
-                    <strong>Executive summary:</strong>
-                    <span class="ml-2">Summarize key points, including objectives and methods, to grab the reader's attention.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-exclamation-circle text-gray-500 mr-2 mt-1"></i>
-                    <strong>Problem statement:</strong>
-                    <span class="ml-2">Define the problem your proposal addresses and emphasize its importance.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-bullseye text-gray-500 mr-2 mt-1"></i>
-                    <strong>Objectives and goals:</strong>
-                    <span class="ml-2">Outline specific, measurable goals aligned with the needs identified.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-cogs text-gray-500 mr-2 mt-1"></i>
-                    <strong>Proposed methodology:</strong>
-                    <span class="ml-2">Detail the methods you will employ to address the problem and why they are suitable.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-clock text-gray-500 mr-2 mt-1"></i>
-                    <strong>Timeline:</strong>
-                    <span class="ml-2">Provide a realistic timeline for project completion with major milestones.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-dollar-sign text-gray-500 mr-2 mt-1"></i>
-                    <strong>Budget:</strong>
-                    <span class="ml-2">Include a detailed budget breakdown to clarify expected expenses.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-users text-gray-500 mr-2 mt-1"></i>
-                    <strong>Team qualifications:</strong>
-                    <span class="ml-2">Highlight your team's qualifications and relevant experiences to instill confidence.</span>
-                </li>
-                <li class="flex items-start mb-4">
-                    <i class="fas fa-file-signature text-gray-500 mr-2 mt-1"></i>
-                    <strong>Conclusion:</strong>
-                    <span class="ml-2">Summarize the proposal's key points and reinforce why your solution is the best fit.</span>
-                </li>
-            </ul>
-        </li>
-        <li class="flex items-start mb-4">
-            <i class="fas fa-pencil-ruler text-yellow-500 mr-2 mt-1"></i>
-            <strong>Draft the Proposal:</strong>
-            <span class="ml-2">Follow the outline, ensuring clarity and professionalism in your writing. Use visuals where necessary to support your points.</span>
-        </li>
-        <li class="flex items-start mb-4">
-            <i class="fas fa-paper-plane text-yellow-500 mr-2 mt-1"></i>
-            <strong>Review and Edit:</strong>
-            <span class="ml-2">Edit thoroughly for grammar and clarity. Seek feedback from colleagues before final submission.</span>
-        </li>
-    </ul>
-    <!-- Next Button to show Step 3 -->
-    <button onclick="showStep2()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Back</button>
-    <button onclick="showStep4()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Next</button>
-</div>
 
-<!-- Step 4 HTML -->
-<div id="step4" class="hidden bg-white shadow-lg rounded-xl p-8 mb-8">
+
+
+
+
+<div id="step2" class="bg-white shadow-lg rounded-xl p-6 sm:p-8 mb-8 hidden">
   <div class="flex items-center mb-5">
-      <i class="fas fa-edit text-purple-500 mr-3 text-3xl"></i>
-      <h2 class="text-3xl font-semibold text-gray-700 font-montserrat">Step 4: Review</h2>
+      <i class="fas fa-folder-open text-green-500 mr-3 text-2xl sm:text-3xl"></i>
+      <h2 class="text-2xl sm:text-3xl font-semibold text-gray-700 font-montserrat">
+          Step 2: Arrange Documents
+      </h2>
   </div>
   <ul class="list-disc list-inside text-gray-600">
       <li class="flex items-start mb-4">
-          <i class="fas fa-users text-purple-500 mr-2 mt-1"></i>
-          <strong>Conduct Internal Reviews:</strong>
-          <span class="ml-2">Share the draft proposal with colleagues or supervisors to gather constructive feedback on content, structure, and clarity.</span>
+          <i class="fas fa-file-alt text-green-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Gather Necessary Documents:</strong>
+              <ul class="list-disc list-inside ml-5 mt-2">
+                  <li class="flex items-start mb-2">
+                      <i class="fas fa-check-circle text-gray-500 mr-2 text-base"></i>
+                      <span>Cover letter: Introduce your company and the purpose of the proposal.</span>
+                  </li>
+                  <li class="flex items-start mb-2">
+                      <i class="fas fa-check-circle text-gray-500 mr-2 text-base"></i>
+                      <span>Executive summary: Summarize the key points of your proposal, including objectives and outcomes.</span>
+                  </li>
+                  <li class="flex items-start mb-2">
+                      <i class="fas fa-check-circle text-gray-500 mr-2 text-base"></i>
+                      <span>Company profile: Provide an overview of your company, including its history, mission, and relevant experience.</span>
+                  </li>
+                  <li class="flex items-start mb-2">
+                      <i class="fas fa-check-circle text-gray-500 mr-2 text-base"></i>
+                      <span>Relevant experience or case studies: Highlight previous projects or case studies that demonstrate your capability.</span>
+                  </li>
+                  <li class="flex items-start mb-2">
+                      <i class="fas fa-check-circle text-gray-500 mr-2 text-base"></i>
+                      <span>Financial statements or budgets: Include any necessary financial documents to showcase your company’s financial health.</span>
+                  </li>
+                  <li class="flex items-start mb-2">
+                      <i class="fas fa-check-circle text-gray-500 mr-2 text-base"></i>
+                      <span>Resumes of key personnel: Present the qualifications and experiences of the team members who will be involved in the project.</span>
+                  </li>
+              </ul>
+          </div>
       </li>
       <li class="flex items-start mb-4">
-          <i class="fas fa-pencil-alt text-purple-500 mr-2 mt-1"></i>
-          <strong>Revise and Edit:</strong>
-          <span class="ml-2">Incorporate the feedback received and make necessary revisions. Focus on enhancing clarity, correcting grammar, and ensuring proper formatting throughout the document.</span>
+          <i class="fas fa-folder text-green-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Organize Materials:</strong>
+              <span>Create a folder (digital or physical) to store all proposal-related documents, ensuring easy access and retrieval.</span>
+          </div>
       </li>
       <li class="flex items-start mb-4">
-          <i class="fas fa-check-circle text-purple-500 mr-2 mt-1"></i>
-          <strong>Final Proofreading:</strong>
-          <span class="ml-2">Perform a thorough proofread to catch any remaining errors. Use grammar-checking tools or consider hiring a professional editor to ensure your proposal is polished and professional.</span>
+          <i class="fas fa-check-square text-green-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Create a Checklist:</strong>
+              <span>Make a checklist of all required documents and information needed for the proposal to ensure nothing is overlooked during submission.</span>
+          </div>
       </li>
   </ul>
-  <!-- Next Button to show Step 3 -->
-  <button onclick="showStep3()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Back</button>
-  <button onclick="showStep5()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Next</button>
+  <!-- Back and Next Buttons -->
+  <div class="flex justify-between mt-6">
+      <button onclick="showStep1()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">
+          Back
+      </button>
+      <button onclick="showStep3()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">
+          Next
+      </button>
+  </div>
 </div>
 
-<!-- Step 5 HTML -->
-<div id="step5" class="hidden bg-white shadow-lg rounded-xl p-8 mb-8">
+
+<div id="step3" class="bg-white shadow-lg rounded-xl p-6 sm:p-8 mb-8 hidden">
   <div class="flex items-center mb-5">
-      <i class="fas fa-paper-plane text-red-500 mr-3 text-3xl"></i>
-      <h2 class="text-3xl font-semibold text-gray-700 font-montserrat">Step 5: Submission</h2>
+      <i class="fas fa-pencil-alt text-yellow-500 mr-3 text-2xl sm:text-3xl"></i>
+      <h2 class="text-2xl sm:text-3xl font-semibold text-gray-700 font-montserrat">
+          Step 3: Crafting the Proposal
+      </h2>
+  </div>
+  <ul class="list-disc list-inside text-gray-600">
+      <li class="flex items-start mb-4">
+          <i class="fas fa-list-alt text-yellow-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Outline the Proposal:</strong>
+              <span class="ml-2">Create a structured outline that includes:</span>
+              <ul class="list-disc list-inside ml-5 mt-2">
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-file text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Title page:</strong>
+                          <span class="ml-2">Present your proposal's title, your name, and organization. Make it clear and professional.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-table text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Table of contents:</strong>
+                          <span class="ml-2">Provide a detailed table of contents to help the reader navigate the document.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-file-alt text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Executive summary:</strong>
+                          <span class="ml-2">Summarize key points, including objectives and methods, to grab the reader's attention.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-exclamation-circle text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Problem statement:</strong>
+                          <span class="ml-2">Define the problem your proposal addresses and emphasize its importance.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-bullseye text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Objectives and goals:</strong>
+                          <span class="ml-2">Outline specific, measurable goals aligned with the needs identified.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-cogs text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Proposed methodology:</strong>
+                          <span class="ml-2">Detail the methods you will employ to address the problem and why they are suitable.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-clock text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Timeline:</strong>
+                          <span class="ml-2">Provide a realistic timeline for project completion with major milestones.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-dollar-sign text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Budget:</strong>
+                          <span class="ml-2">Include a detailed budget breakdown to clarify expected expenses.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-users text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Team qualifications:</strong>
+                          <span class="ml-2">Highlight your team's qualifications and relevant experiences to instill confidence.</span>
+                      </div>
+                  </li>
+                  <li class="flex items-start mb-4">
+                      <i class="fas fa-file-signature text-gray-500 mr-2 text-base"></i>
+                      <div class="flex-1">
+                          <strong>Conclusion:</strong>
+                          <span class="ml-2">Summarize the proposal's key points and reinforce why your solution is the best fit.</span>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </li>
+      <li class="flex items-start mb-4">
+          <i class="fas fa-pencil-ruler text-yellow-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Draft the Proposal:</strong>
+              <span class="ml-2">Follow the outline, ensuring clarity and professionalism in your writing. Use visuals where necessary to support your points.</span>
+          </div>
+      </li>
+      <li class="flex items-start mb-4">
+          <i class="fas fa-paper-plane text-yellow-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Review and Edit:</strong>
+              <span class="ml-2">Edit thoroughly for grammar and clarity. Seek feedback from colleagues before final submission.</span>
+          </div>
+      </li>
+  </ul>
+  <!-- Navigation Buttons -->
+  <button onclick="showStep2()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">Back</button>
+  <button onclick="showStep4()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">Next</button>
+</div>
+
+
+<div id="step4" class="hidden bg-white shadow-lg rounded-xl p-6 sm:p-8 mb-8">
+  <div class="flex items-center mb-5">
+      <i class="fas fa-edit text-purple-500 mr-3 text-2xl sm:text-3xl"></i>
+      <h2 class="text-2xl sm:text-3xl font-semibold text-gray-700 font-montserrat">
+          Step 4: Review
+      </h2>
+  </div>
+  <ul class="list-disc list-inside text-gray-600">
+      <li class="flex items-start mb-4">
+          <i class="fas fa-users text-purple-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Conduct Internal Reviews:</strong>
+              <span class="ml-2">Share the draft proposal with colleagues or supervisors to gather constructive feedback on content, structure, and clarity.</span>
+          </div>
+      </li>
+      <li class="flex items-start mb-4">
+          <i class="fas fa-pencil-alt text-purple-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Revise and Edit:</strong>
+              <span class="ml-2">Incorporate the feedback received and make necessary revisions. Focus on enhancing clarity, correcting grammar, and ensuring proper formatting throughout the document.</span>
+          </div>
+      </li>
+      <li class="flex items-start mb-4">
+          <i class="fas fa-check-circle text-purple-500 mr-2 text-lg sm:text-xl"></i>
+          <div class="flex-1">
+              <strong>Final Proofreading:</strong>
+              <span class="ml-2">Perform a thorough proofread to catch any remaining errors. Use grammar-checking tools or consider hiring a professional editor to ensure your proposal is polished and professional.</span>
+          </div>
+      </li>
+  </ul>
+  <!-- Navigation Buttons -->
+  <div class="flex justify-between mt-6">
+      <button onclick="showStep3()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">
+          Back
+      </button>
+      <button onclick="showStep5()" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">
+          Next
+      </button>
+  </div>
+</div>
+
+
+<div id="step5" class="hidden bg-white shadow-lg rounded-xl p-6 sm:p-8 mb-8">
+  <div class="flex items-center mb-5">
+      <i class="fas fa-paper-plane text-red-500 mr-3 text-2xl sm:text-3xl"></i>
+      <h2 class="text-2xl sm:text-3xl font-semibold text-gray-700 font-montserrat">
+          Step 5: Submission
+      </h2>
   </div>
   <ul class="list-disc list-inside text-gray-600">
       <li class="flex items-start mb-3">
-          <i class="fas fa-check-circle text-red-500 mr-2 mt-1"></i>
-          <strong>Follow Submission Guidelines:</strong>
-          <span class="ml-2">Ensure you follow the RFP's submission instructions, including format, method (e.g., online portal or email), and deadlines to avoid disqualification.</span>
+          <i class="fas fa-check-circle text-red-500 mr-2 text-lg sm:text-xl mt-1"></i>
+          <div class="flex-1">
+              <strong>Follow Submission Guidelines:</strong>
+              <span class="ml-2">Ensure you follow the RFP's submission instructions, including format, method (e.g., online portal or email), and deadlines to avoid disqualification.</span>
+          </div>
       </li>
       <li class="flex items-start mb-3">
-          <i class="fas fa-folder-open text-red-500 mr-2 mt-1"></i>
-          <strong>Prepare Submission Package:</strong>
-          <span class="ml-2">Compile your final proposal and all necessary documents in the specified format. Ensure everything is clearly labeled and organized for easy access by reviewers.</span>
+          <i class="fas fa-folder-open text-red-500 mr-2 text-lg sm:text-xl mt-1"></i>
+          <div class="flex-1">
+              <strong>Prepare Submission Package:</strong>
+              <span class="ml-2">Compile your final proposal and all necessary documents in the specified format. Ensure everything is clearly labeled and organized for easy access by reviewers.</span>
+          </div>
       </li>
       <li class="flex items-start mb-3">
-          <i class="fas fa-envelope-open-text text-red-500 mr-2 mt-1"></i>
-          <strong>Confirm Receipt:</strong>
-          <span class="ml-2">If possible, confirm that the funding agency or client has received your proposal. Keep a copy of all submitted materials for your records to track your submission.</span>
+          <i class="fas fa-envelope-open-text text-red-500 mr-2 text-lg sm:text-xl mt-1"></i>
+          <div class="flex-1">
+              <strong>Confirm Receipt:</strong>
+              <span class="ml-2">If possible, confirm that the funding agency or client has received your proposal. Keep a copy of all submitted materials for your records to track your submission.</span>
+          </div>
       </li>
   </ul>
-  <button onclick="showStep4()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Back</button>
+  <button onclick="showStep4()" class="mt-6 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full sm:w-auto">
+      Back
+  </button>
 </div>
+
 
 
 <script>
